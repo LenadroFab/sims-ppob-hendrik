@@ -2,7 +2,8 @@ import { useEffect, useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { useNavigate } from "react-router-dom";
 import { Form, Button, Spinner } from "react-bootstrap";
-import Navbar from "../../components/Navbar";
+import Navbar from "../../../components/Navbar";
+
 
 import { logout } from "../../features/auth/authSlice";
 import {
