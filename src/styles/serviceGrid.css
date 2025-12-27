@@ -1,0 +1,37 @@
+.services-grid {
+  display: flex;
+  gap: 28px;
+  overflow-x: auto;
+  padding: 16px 0;
+  scrollbar-width: none; /* Firefox */
+}
+
+.services-grid::-webkit-scrollbar {
+  display: none; /* Chrome */
+}
+
+/* ITEM */
+.service-item {
+  flex: 0 0 auto; /* ⬅️ PENTING: biar satu baris */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-width: 64px;
+  cursor: pointer;
+}
+
+/* ICON */
+.service-icon {
+  width: 36px;
+  height: 36px;
+  object-fit: contain;
+  margin-bottom: 6px;
+}
+
+/* LABEL */
+.service-label {
+  font-size: 12px;
+  font-weight: 500;
+  text-align: center;
+  white-space: nowrap;
+}

@@ -1,0 +1,126 @@
+/* PAGE */
+.profile-page {
+  padding: 60px 0;
+  background-color: #fafafa;
+}
+
+/* SATU GARIS VERTIKAL */
+.profile-center {
+  max-width: 760px;
+  margin: 0 auto;
+}
+
+/* HEADER */
+.profile-header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.profile-avatar {
+  position: relative;
+  width: 120px;
+  margin: 0 auto 16px;
+}
+
+.profile-avatar img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.edit-icon {
+  position: absolute;
+  bottom: 6px;
+  right: 6px;
+  background: #fff;
+  border-radius: 50%;
+  padding: 6px 8px;
+  font-size: 13px;
+  cursor: pointer;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+  transition: all 0.2s ease;
+}
+
+.edit-icon:hover {
+  transform: scale(1.05);
+}
+
+.profile-name {
+  font-size: 22px;
+  font-weight: 600;
+}
+
+/* FORM BOX */
+.profile-form {
+  background: #ffffff;
+  padding: 36px 40px;
+  border-radius: 8px;
+  border: 1px solid #eee;
+}
+
+/* GROUP — SEMUA VERTIKAL */
+.profile-group {
+  display: flex;
+  flex-direction: column; /* ⬅️ LABEL DI ATAS */
+  margin-bottom: 24px;
+}
+
+/* LABEL */
+.profile-group .form-label {
+  font-size: 14px;
+  margin-bottom: 8px;
+}
+
+/* INPUT */
+.profile-group .form-control {
+  padding: 12px 14px;
+  font-size: 14px;
+}
+
+/* BUTTON */
+.btn-save {
+  margin-top: 32px;
+  width: 100%;
+  background-color: #ff2d20;
+  border: none;
+  padding: 14px;
+  font-size: 16px;
+  border-radius: 6px;
+}
+
+.btn-save:hover {
+  background-color: #e0271b;
+}
+
+.avatar-wrapper {
+  position: relative;
+  width: 120px;
+  margin: 20px auto;
+}
+
+.avatar-img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.avatar-edit {
+  position: absolute;
+  bottom: 5px;
+  right: 5px;
+  background: #fff;
+  border-radius: 50%;
+  padding: 6px;
+  cursor: pointer;
+  font-size: 14px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+}
+.profile-form {
+  background: #ffffff;
+  padding: 36px 40px;
+  border-radius: 8px;
+  border: 1px solid #eee;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}

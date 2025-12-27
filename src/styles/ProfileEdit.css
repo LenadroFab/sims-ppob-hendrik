@@ -1,0 +1,102 @@
+/* =========================
+   PROFILE EDIT PAGE
+========================= */
+.profile-edit-page {
+  padding: 60px 0;
+  background: #fafafa;
+}
+
+.profile-edit-center {
+  max-width: 760px;
+  margin: 0 auto;
+}
+
+.profile-edit-title {
+  text-align: center;
+  margin-bottom: 32px;
+  font-weight: 600;
+}
+
+/* =========================
+   AVATAR
+========================= */
+.edit-avatar {
+  text-align: center;
+  margin-bottom: 32px;
+}
+
+.avatar-img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  display: block;
+  margin: 0 auto 12px;
+}
+
+.btn-upload {
+  display: inline-block;
+  margin-top: 8px;
+  font-size: 14px;
+  color: #ff2d20;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.btn-upload:hover {
+  text-decoration: underline;
+  opacity: 0.9;
+}
+
+/* =========================
+   FORM
+========================= */
+.profile-form {
+  background: #ffffff;
+  padding: 36px 40px;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.profile-group {
+  margin-bottom: 24px;
+}
+
+/* =========================
+   BUTTON SIMPAN
+========================= */
+.btn-save {
+  margin-top: 32px;
+  width: 100%;
+  background-color: #ff2d20;
+  border: none;
+  padding: 14px;
+  font-size: 16px;
+  border-radius: 6px;
+  color: #fff;
+  transition: background-color 0.2s ease;
+}
+
+.btn-save:hover {
+  background-color: #e0271b;
+}
+
+/* =========================
+   BUTTON LOGOUT ✅
+========================= */
+.btn-logout {
+  margin-top: 16px;
+  width: 100%;
+  background-color: #ffffff;
+  color: #dc3545;
+  border: 1px solid #dc3545;
+  padding: 14px;
+  font-size: 16px;
+  border-radius: 6px;
+  transition: all 0.2s ease;
+}
+
+.btn-logout:hover {
+  background-color: #dc3545;
+  color: #ffffff;
+}
